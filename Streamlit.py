@@ -4,7 +4,7 @@ import pandas as pd
 import base64
 
 # Load the trained model
-with open(r"pro3\Scripts\Demo3.pkl", "rb") as f:
+with open("Demo3.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Set page configuration
@@ -26,7 +26,7 @@ def add_bg_from_local(image_path):
         unsafe_allow_html=True
     )
 
-add_bg_from_local(r"C:\Users\sayas\Downloads\Project3\pro3\Scripts\CR1.jpg")
+add_bg_from_local("CR1.jpg")
 
 st.title("🚗 Car Price Prediction App")
 st.write("Fill in the details below to estimate the car's price.")
