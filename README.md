@@ -1,5 +1,3 @@
-Dataset from Demo.csv. Let me start by understanding the columns provided. The columns are: city, body_type, Kms_Driven, oem, model, modelYear, variantName, price, Insurance Validity, Fuel Type, Seating_Capacity, Ownership, Transmission, Color.
-
 First, I'll check if there are any missing values or inconsistencies. Looking at the data, all the entries seem to have values filled in each column. The numerical values for Kms_Driven, price, Insurance Validity, etc., look okay, but I should verify if there are any outliers or incorrect entries. For example, some prices seem very high or low, which might indicate data entry errors.
 
 Next, I'll consider the data types. Most columns are numerical, but some like Fuel Type and Transmission might be categorical. The 'modelYear' should be a year, but it's in a numerical format. The 'Color' column is also numerical, which might represent color codes instead of actual color names.
